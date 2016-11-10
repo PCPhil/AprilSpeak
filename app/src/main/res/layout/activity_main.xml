@@ -13,16 +13,16 @@
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100px"
         android:inputType="textPersonName"
         android:ems="20"
         android:hint="@string/word"
         android:background="#dce4e6"
         android:id="@+id/editText"
-        android:layout_marginTop="110dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="173dp"
+        />
     <Button
         android:text="@string/mic"
         android:layout_width="wrap_content"
@@ -32,7 +32,9 @@
         android:onClick="onClick"
         android:layout_alignBaseline="@+id/btnsay"
         android:layout_alignBottom="@+id/btnsay"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#FBE337"
+        android:textColor="#5E739A"/>
 
     <Button
         android:text="@string/say"
@@ -42,6 +44,70 @@
         android:layout_marginTop="84dp"
         android:layout_alignTop="@+id/editText"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="53dp" />
+        android:layout_marginEnd="53dp"
+        android:background="#FBE337"
+        android:textColor="#5E739A"
+        />
+
+
+
+    <Button
+        android:text="@string/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/start"
+        android:layout_below="@+id/btnmic"
+        android:layout_alignStart="@+id/btnmic"
+        android:background="#FBE337"
+        android:textColor="#5E739A"
+        />
+
+    <Button
+        android:text="@string/define"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/define"
+        android:layout_alignBaseline="@+id/start"
+        android:layout_alignBottom="@+id/start"
+        android:layout_alignStart="@+id/btnsay"
+        android:background="#FBE337"
+        android:textColor="#5E739A"
+        />
+
+
+    <Button
+        android:text="@string/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clear"
+        android:background="#FBE337"
+        android:textColor="#5E739A"
+        android:layout_below="@+id/define"
+        android:layout_alignStart="@+id/define"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDefine"
+        android:background="#F7CAC9"
+        android:textColor="#5E739A"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp"
+        />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tvTerm"
+        android:background="#F7CAC9"
+        android:textColor="#5E739A"/>
+
 
 </RelativeLayout>

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">AprilSpeak</string>
     <string name="word">Type or Mic something!</string>
-    <string name="mic">microphone</string>
-    <string name="say">Say</string>
+    <string name="mic">GoogleSpeak</string>
+    <string name="start">AndroidSpeak</string>
+    <string name="say">PronounceIt</string>
+    <string name="define">Define</string>
+    <string name="clear">Clear</string>
 </resources>
