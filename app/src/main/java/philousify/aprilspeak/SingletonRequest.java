@@ -38,7 +38,6 @@ public class SingletonRequest {
                     }
                 });
     }
-    //
     //Check member Instance for instantiation
     public static synchronized SingletonRequest getInstance(Context context){
         if(mInstance == null){
